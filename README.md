@@ -5,7 +5,7 @@
 
 **A self-learning Unix shell that combines low-level systems programming with machine learning to provide intelligent, context-aware command assistance.**
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -17,7 +17,7 @@
 - [Team](#team)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 NeuroShell is an intelligent command-line shell that goes beyond traditional shells like bash or zsh. By integrating POSIX-compliant systems programming with machine learning, NeuroShell learns from your command history to provide smart suggestions, correct typos, and predict your next commands.
 
@@ -31,7 +31,7 @@ Traditional shells are powerful but lack intelligent guidance. NeuroShell addres
 - **Explainable AI**: Shows why each suggestion was made
 - **Privacy-First**: Operates entirely offline with no cloud dependency
 
-## ✨ Features
+##  Features
 
 ### Shell Core (C, POSIX)
 - Full command parsing with support for pipes (`|`), redirections (`<`, `>`, `>>`), and sequencing (`;`)
@@ -89,7 +89,7 @@ Traditional shells are powerful but lack intelligent guidance. NeuroShell addres
     └──────────────────────────────────┘
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ./neuroshell
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Basic Commands
 
@@ -197,7 +197,7 @@ make clean
 - **Libraries**: SQLite3, rapidfuzz, numpy, scikit-learn (optional)
 - **Tools**: gcc/clang, make, valgrind, gdb, bats, pytest
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -213,7 +213,7 @@ make test-ml
 make valgrind
 ```
 
-## 👥 Team
+##  Team
 
 **Team Name**: Kernel Mind
 
@@ -224,7 +224,7 @@ make valgrind
 | **Akriti Rawat** | Developer | akritirawat12345@gmail.com |
 | **Ayush Chand** | Developer | ayushchand862@gmail.com |
 
-## 📚 References
+##  References
 
 - [POSIX Standard - IEEE Std 1003.1](https://pubs.opengroup.org/onlinepubs/9699919799/)
 - [Advanced Programming in the UNIX Environment](https://www.apuebook.com/)
@@ -233,15 +233,15 @@ make valgrind
 - [RapidFuzz: Fuzzy String Matching](https://maxbachmann.github.io/RapidFuzz/)
 - [The Linux Programming Interface](https://man7.org/tlpi/)
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🐛 Issues
+##  Issues
 
 Found a bug or have a feature request? Please open an issue on our [GitHub repository](https://github.com/kernel-mind/neuroshell/issues).
 
