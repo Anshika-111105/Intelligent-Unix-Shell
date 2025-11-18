@@ -31,11 +31,12 @@ Traditional shells are powerful but lack intelligent guidance. NeuroShell addres
 - **Explainable AI**: Shows why each suggestion was made
 - **Privacy-First**: Operates entirely offline with no cloud dependency
 
-## 📸 Output 
+## 📸 Output Screenshot
 
-Here's an example of NeuroShell in action:
+Here’s what NeuroShell looks like in action:
 
-![NeuroShell Output](assets/output_screenshot.png)
+![NeuroShell Output](https://github.com/Anshika-111105/Intelligent-Unix-Shell/blob/main/OS_1.png)
+
 
 ##  Features
 
