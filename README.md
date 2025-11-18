@@ -31,6 +31,12 @@ Traditional shells are powerful but lack intelligent guidance. NeuroShell addres
 - **Explainable AI**: Shows why each suggestion was made
 - **Privacy-First**: Operates entirely offline with no cloud dependency
 
+## 📸 Output 
+
+Here's an example of NeuroShell in action:
+
+![NeuroShell Output](assets/output_screenshot.png)
+
 ##  Features
 
 ### Shell Core (C, POSIX)
