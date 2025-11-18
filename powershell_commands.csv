@@ -1,0 +1,150 @@
+command,description,category,usage_frequency,parameters_count,command_length,hyphen_count,vowel_count,command_verb,command_noun,description_length,frequency_encoded,category_encoded,verb_encoded
+get-process,Lists all running processes,System,High,5,11,1,3,get,process,27,3,0,0
+get-service,Retrieves services and their status,System,High,4,11,1,4,get,service,35,3,0,0
+stop-process,Terminates a running process,System,High,3,12,1,3,stop,process,28,3,0,1
+start-service,Starts a stopped service,System,Medium,2,13,1,4,start,service,24,2,0,2
+get-childitem,Lists files and folders,Filesystem,High,6,13,1,4,get,childitem,23,3,1,0
+set-location,Changes current directory,Filesystem,High,2,12,1,5,set,location,25,3,1,3
+new-item,Creates new files or folders,Filesystem,Medium,4,8,1,3,new,item,28,2,1,4
+remove-item,Deletes files or folders,Filesystem,High,3,11,1,5,remove,item,24,3,1,5
+copy-item,Copies files or folders,Filesystem,High,3,9,1,3,copy,item,23,3,1,6
+move-item,Moves files or folders,Filesystem,Medium,3,9,1,4,move,item,22,2,1,7
+get-content,Reads file contents,Filesystem,High,3,11,1,3,get,content,19,3,1,0
+set-content,Writes content to file,Filesystem,Medium,3,11,1,3,set,content,22,2,1,3
+add-content,Appends content to file,Filesystem,Medium,2,11,1,3,add,content,23,2,1,8
+clear-content,Clears file contents,Filesystem,Low,1,13,1,4,clear,content,20,1,1,9
+test-path,Checks if path exists,Filesystem,Medium,2,9,1,2,test,path,21,2,1,10
+rename-item,Renames a file or folder,Filesystem,Medium,2,11,1,5,rename,item,24,2,1,11
+get-item,Gets file or folder properties,Filesystem,Medium,2,8,1,3,get,item,30,2,1,0
+set-itemproperty,Sets file properties,Filesystem,Low,3,16,1,5,set,itemproperty,20,1,1,3
+get-itemproperty,Gets file properties,Filesystem,Medium,2,16,1,5,get,itemproperty,20,2,1,0
+remove-itemproperty,Removes file properties,Filesystem,Low,2,19,1,7,remove,itemproperty,23,1,1,5
+get-alias,Lists command aliases,General,Low,2,9,1,4,get,alias,21,1,2,0
+new-alias,Creates new alias,General,Low,2,9,1,4,new,alias,17,1,2,4
+remove-alias,Deletes an alias,General,Low,1,12,1,6,remove,alias,16,1,2,5
+set-alias,Modifies an alias,General,Low,2,9,1,4,set,alias,17,1,2,3
+get-variable,Lists variables,General,Low,2,12,1,5,get,variable,15,1,2,0
+new-variable,Creates new variable,General,Medium,3,12,1,5,new,variable,20,2,2,4
+remove-variable,Deletes a variable,General,Low,1,15,1,7,remove,variable,18,1,2,5
+set-variable,Modifies variable value,General,Medium,2,12,1,5,set,variable,23,2,2,3
+clear-variable,Clears variable value,General,Low,1,14,1,6,clear,variable,21,1,2,9
+get-command,Lists available commands,Help,High,4,11,1,3,get,command,24,3,3,0
+get-help,Displays help information,Help,High,3,8,1,2,get,help,25,3,3,0
+update-help,Updates help files,Help,Low,2,11,1,4,update,help,18,1,3,12
+write-host,Outputs text to console,Io,High,4,10,1,3,write,host,23,3,4,13
+write-output,Outputs object to pipeline,Io,High,3,12,1,5,write,output,26,3,4,13
+read-host,Reads user input,Io,Medium,2,9,1,3,read,host,16,2,4,14
+get-date,Returns current date/time,Datetime,Medium,3,8,1,3,get,date,25,2,5,0
+set-date,Sets system date/time,Datetime,Low,2,8,1,3,set,date,21,1,5,3
+measure-object,Measures object properties,Analysis,Low,4,14,1,6,measure,object,26,1,6,15
+sort-object,Sorts objects,Analysis,High,4,11,1,3,sort,object,13,3,6,16
+select-object,Selects object properties,Analysis,High,5,13,1,4,select,object,25,3,6,17
+where-object,Filters objects,Analysis,High,3,12,1,4,where,object,15,3,6,18
+group-object,Groups objects,Analysis,Medium,3,12,1,4,group,object,14,2,6,19
+invoke-expression,Executes string as command,Execution,Low,1,17,1,7,invoke,expression,26,1,7,20
+invoke-command,Runs command on local/remote,Execution,Medium,4,14,1,5,invoke,command,28,2,7,20
+invoke-item,Invokes default application,Execution,Low,1,11,1,5,invoke,item,27,1,7,20
+import-module,Imports PowerShell module,Modules,Medium,3,13,1,5,import,module,25,2,8,21
+export-module,Exports module information,Modules,Low,2,13,1,5,export,module,26,1,8,22
+get-module,Lists loaded modules,Modules,Medium,2,10,1,4,get,module,20,2,8,0
+remove-module,Unloads a module,Modules,Low,1,13,1,6,remove,module,16,1,8,5
+new-module,Creates new module,Modules,Low,2,10,1,4,new,module,18,1,8,4
+test-modulemanifest,Tests module manifest,Modules,Low,1,19,1,7,test,modulemanifest,21,1,8,10
+get-executionpolicy,Shows execution policy,Security,Medium,1,19,1,8,get,executionpolicy,22,2,9,0
+set-executionpolicy,Sets execution policy,Security,Low,1,19,1,8,set,executionpolicy,21,1,9,3
+get-credential,Gets user credentials,Security,Medium,1,14,1,5,get,credential,21,2,9,0
+convertto-securestring,Converts string to secure string,Security,Low,2,22,1,7,convertto,securestring,32,1,9,23
+convertfrom-securestring,Converts secure string,Security,Low,2,24,1,7,convertfrom,securestring,22,1,9,24
+new-pssession,Creates remote session,Remoting,Low,4,13,1,4,new,pssession,22,1,10,4
+enter-pssession,Connects to remote session,Remoting,Low,1,15,1,5,enter,pssession,26,1,10,25
+exit-pssession,Disconnects remote session,Remoting,Low,1,14,1,5,exit,pssession,26,1,10,26
+remove-pssession,Closes remote session,Remoting,Low,1,16,1,6,remove,pssession,21,1,10,5
+restart-computer,Restarts the computer,System,Low,3,16,1,5,restart,computer,21,1,0,27
+stop-computer,Shuts down computer,System,Low,2,13,1,4,stop,computer,19,1,0,1
+get-eventlog,Retrieves event log entries,Logging,Low,4,12,1,4,get,eventlog,27,1,11,0
+clear-eventlog,Clears event log,Logging,Low,2,14,1,5,clear,eventlog,16,1,11,9
+write-eventlog,Writes to event log,Logging,Low,3,14,1,5,write,eventlog,19,1,11,13
+new-eventlog,Creates new event log,Logging,Low,2,12,1,4,new,eventlog,21,1,11,4
+remove-eventlog,Deletes event log,Logging,Low,1,15,1,6,remove,eventlog,17,1,11,5
+get-winevent,Gets Windows events,Logging,Medium,3,12,1,4,get,winevent,19,2,11,0
+new-object,Creates COM object,Objects,Medium,3,10,1,3,new,object,18,2,12,4
+get-member,Shows object members,Objects,Medium,2,10,1,3,get,member,20,2,12,0
+add-member,Adds member to object,Objects,Low,3,10,1,3,add,member,21,1,12,8
+remove-member,Removes member from object,Objects,Low,1,13,1,5,remove,member,26,1,12,5
+get-type,Gets .NET type,Objects,Low,1,8,1,2,get,type,14,1,12,0
+convertto-json,Converts to JSON,Conversion,Medium,2,14,1,4,convertto,json,16,2,13,23
+convertfrom-json,Converts from JSON,Conversion,Medium,2,16,1,4,convertfrom,json,18,2,13,24
+convertto-csv,Converts to CSV,Conversion,Medium,2,13,1,3,convertto,csv,15,2,13,23
+convertfrom-csv,Converts from CSV,Conversion,Medium,2,15,1,3,convertfrom,csv,17,2,13,24
+convertto-html,Converts to HTML,Conversion,Low,2,14,1,3,convertto,html,16,1,13,23
+export-csv,Exports to CSV file,Io,High,3,10,1,2,export,csv,19,3,4,22
+import-csv,Imports CSV file,Io,High,2,10,1,2,import,csv,16,3,4,21
+export-clixml,Exports to XML,Io,Medium,2,13,1,3,export,clixml,14,2,4,22
+import-clixml,Imports from XML,Io,Medium,1,13,1,3,import,clixml,16,2,4,21
+out-file,Outputs to file,Io,Medium,3,8,1,4,out,file,15,2,4,28
+out-gridview,Displays in grid,Io,Medium,2,12,1,5,out,gridview,16,2,4,28
+out-host,Outputs to console,Io,Low,1,8,1,3,out,host,18,1,4,28
+out-string,Converts to string,Io,Low,2,10,1,3,out,string,18,1,4,28
+out-null,Discards output,Io,Medium,1,8,1,3,out,null,15,2,4,28
+tee-object,Sends output to two places,Io,Low,3,10,1,4,tee,object,26,1,4,29
+format-list,Formats as list,Formatting,Medium,3,11,1,3,format,list,15,2,14,30
+format-table,Formats as table,Formatting,High,4,12,1,4,format,table,16,3,14,30
+format-wide,Formats in columns,Formatting,Low,2,11,1,4,format,wide,18,1,14,30
+format-custom,Custom formatting,Formatting,Low,2,13,1,4,format,custom,17,1,14,30
+get-unique,Gets unique items,Analysis,Low,1,10,1,5,get,unique,17,1,6,0
+compare-object,Compares objects,Analysis,Low,3,14,1,5,compare,object,16,1,6,31
+foreach-object,Loops through objects,Control,High,2,14,1,5,foreach,object,21,3,15,32
+if,Conditional statement,Control,High,1,2,0,1,if,,21,3,15,33
+else,Else clause,Control,High,1,4,0,2,els,e,11,3,15,34
+elseif,Else-if clause,Control,High,1,6,0,3,els,eif,14,3,15,34
+switch,Switch statement,Control,Medium,1,6,0,1,swi,tch,16,2,15,35
+for,For loop,Control,High,1,3,0,1,for,,8,3,15,36
+while,While loop,Control,High,1,5,0,2,whi,le,10,3,15,37
+do,Do-while loop,Control,High,1,2,0,1,do,,13,3,15,38
+break,Breaks from loop,Control,Medium,1,5,0,2,bre,ak,16,2,15,39
+continue,Continues loop,Control,Medium,1,8,0,4,con,tinue,14,2,15,40
+return,Returns value,Control,Medium,1,6,0,2,ret,urn,13,2,15,41
+exit,Exits script,Control,Medium,1,4,0,2,exi,t,12,2,15,42
+throw,Throws exception,Control,Low,1,5,0,1,thr,ow,16,1,15,43
+try,Try block for error handling,Control,Medium,1,3,0,0,try,,28,2,15,44
+catch,Catch block,Control,Medium,1,5,0,1,cat,ch,11,2,15,45
+finally,Finally block,Control,Low,1,7,0,2,fin,ally,13,1,15,46
+resolve-path,Resolves file path,Filesystem,Low,2,12,1,4,resolve,path,18,1,1,47
+split-path,Splits file path,Filesystem,Low,2,10,1,2,split,path,16,1,1,48
+join-path,Joins path components,Filesystem,Medium,2,9,1,3,join,path,21,2,1,49
+push-location,Saves current location,Filesystem,Low,1,13,1,5,push,location,22,1,1,50
+pop-location,Restores location,Filesystem,Low,1,12,1,5,pop,location,17,1,1,51
+get-pn,Get property names,Objects,Low,1,6,1,1,get,pn,18,1,12,0
+get-random,Generates random number,Utility,Low,3,10,1,3,get,random,23,1,16,0
+write-progress,Shows progress bar,Io,Low,4,14,1,4,write,progress,18,1,4,13
+clear-host,Clears screen,Io,High,0,10,1,3,clear,host,13,3,4,9
+unblock-file,Removes file lock,Filesystem,Low,1,12,1,4,unblock,file,17,1,1,52
+get-authenticodesignature,Gets code signature,Security,Low,1,25,1,11,get,authenticodesignature,19,1,9,0
+set-authenticodesignature,Sets code signature,Security,Low,2,25,1,11,set,authenticodesignature,19,1,9,3
+compress-archive,Creates zip archive,Filesystem,Low,3,16,1,5,compress,archive,19,1,1,53
+expand-archive,Extracts archive,Filesystem,Low,2,14,1,5,expand,archive,16,1,1,54
+get-filehash,Gets file hash,Security,Low,2,12,1,4,get,filehash,14,1,9,0
+test-connection,Tests network connection,Network,Medium,3,15,1,5,test,connection,24,2,17,10
+get-netadapter,Shows network adapters,Network,Low,2,14,1,5,get,netadapter,22,1,17,0
+get-netipaddress,Shows IP addresses,Network,Low,2,16,1,5,get,netipaddress,18,1,17,0
+invoke-restmethod,Calls REST API,Network,Medium,3,17,1,6,invoke,restmethod,14,2,17,20
+invoke-webrequest,Downloads web content,Network,Medium,4,17,1,7,invoke,webrequest,21,2,17,20
+new-webserviceproxy,Creates web service proxy,Network,Low,2,19,1,6,new,webserviceproxy,25,1,17,4
+add-type,Adds .NET type,Development,Low,2,8,1,2,add,type,14,1,18,8
+select-string,Searches text patterns,Analysis,Medium,3,13,1,3,select,string,22,2,6,17
+find-module,Finds module on PSGallery,Modules,Low,2,11,1,4,find,module,25,1,8,55
+install-module,Installs module,Modules,Low,3,14,1,5,install,module,15,1,8,56
+update-module,Updates module,Modules,Low,2,13,1,6,update,module,14,1,8,12
+uninstall-module,Uninstalls module,Modules,Low,1,16,1,6,uninstall,module,17,1,8,57
+publish-module,Publishes module,Modules,Low,2,14,1,5,publish,module,16,1,8,58
+new-psscriptfileinfo,Creates script info,Development,Low,1,20,1,6,new,psscriptfileinfo,19,1,18,4
+test-scriptfileinfo,Tests script info,Development,Low,1,19,1,6,test,scriptfileinfo,17,1,18,10
+update-scriptfileinfo,Updates script info,Development,Low,1,21,1,8,update,scriptfileinfo,19,1,18,12
+start-process,Starts new process,System,Medium,4,13,1,3,start,process,18,2,0,2
+wait-process,Waits for process,System,Low,2,12,1,4,wait,process,17,1,0,59
+resume-process,Resumes process,System,Low,1,14,1,5,resume,process,15,1,0,60
+suspend-process,Pauses process,System,Low,1,15,1,4,suspend,process,14,1,0,61
+stop-service,Stops service,System,High,2,12,1,4,stop,service,13,3,0,1
+restart-service,Restarts service,System,Medium,2,15,1,5,restart,service,16,2,0,27
+new-service,Creates service,System,Low,3,11,1,4,new,service,15,1,0,4
+remove-service,Deletes service,System,Low,1,14,1,6,remove,service,15,1,0,5
